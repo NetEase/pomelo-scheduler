@@ -69,7 +69,7 @@ schedule.scheduleJob("0 0/15 8 * * *", cronJob, {name:'cronJobExample'});
 ```
 ###Cron Trigger syntax
 Cron trigger has 7 fiels, the format is very like the cronTab in linux, only add a second field in the head. The fields and the boundary is as follow:
-```
+<pre style="bgcolor='#dbdbdb'">
 *     *     *     *   *    *        command to be executed
 -     -     -     -   -    -
 |     |     |     |   |    |
@@ -79,7 +79,7 @@ Cron trigger has 7 fiels, the format is very like the cronTab in linux, only add
 |     |     +----------- hour (0 - 23)
 |     +------------- min (0 - 59)
 +------------- second (0 - 59)
-```
+</pre>
 ###Exampe of cron tirggers
 
 "0/2 0 8 * * 6"    Fire at every Satuaday at every even seconds of 08:00
