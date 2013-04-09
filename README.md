@@ -1,4 +1,4 @@
-# pomelo-shedule
+# pomelo-scheduler
 pomelo-schedule is a schedule tool for nodejs, it's purpose is to provide a product level schedulemodule which is high efficient and can support large number job schedule.You can 
 
 As a schedule tool, it support two kinds of trigger: A simple trigger which use a js object and  a Cron time trigger which use a Cron time string.
