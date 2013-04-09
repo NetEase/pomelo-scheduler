@@ -110,7 +110,7 @@ var id = schedule.scheduleJob({period: 1000}, cronJob, {);
  * Do some thing else
  */
 
-//CancleJob
-schedule.cancleJob(id);
+//CancelJob
+schedule.cancelJob(id);
 ```
 When you cancle a job, it will stop schedule immidiatelly, and delete the job.
