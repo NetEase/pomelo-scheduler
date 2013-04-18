@@ -1,4 +1,4 @@
-# pomelo-shedule
+# pomelo-scheduler
 pomelo-schedule is a schedule tool for nodejs, it's purpose is to provide a product level schedulemodule which is high efficient and can support large number job schedule.You can 
 
 As a schedule tool, it support two kinds of trigger: A simple trigger which use a js object and  a Cron time trigger which use a Cron time string.
@@ -110,7 +110,7 @@ var id = schedule.scheduleJob({period: 1000}, cronJob, {);
  * Do some thing else
  */
 
-//CancleJob
-schedule.cancleJob(id);
+//CancelJob
+schedule.cancelJob(id);
 ```
-When you cancle a job, it will stop schedule immidiatelly, and delete the job.
+When you cancel a job, it will stop schedule immidiatelly, and delete the job.
