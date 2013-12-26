@@ -23,7 +23,7 @@ function scheduleSimpleJobTest(count){
 
 function scheduleCronJobTest(count){
   var id = 0;
-  
+
 //  var trigger = cronTrigger.decodeTrigger('* * 2-20 * * *');
   for(var i = 0; i < count; i++){
   var second = Math.floor(Math.random()*10);
@@ -43,15 +43,16 @@ function cancleJob(data){
 }
 
 function scheduleCancleJobTest(){
-  var id = schedule.scheduleJob({start:Date.now(),period:100, count:jobMap.length}, cancleJob, {jobMap:jobMap,schedule:schedule});  
+  var id = schedule.scheduleJob({start:Date.now(),period:100, count:jobMap.length}, cancleJob, {jobMap:jobMap,schedule:schedule});
 }
 
 function test(){
-  scheduleSimpleJobTest(0);
-  
-  scheduleCronJobTest(1);
-  
+  scheduleSimpleJobTest(5);
+
+  scheduleCronJobTest(5);
+
 //  scheduleCancleJobTest();
 }
 
 test();
+//schedule.scheduleJob({period:30, count:4}, simpleJob, {name:'simpleJob'});
