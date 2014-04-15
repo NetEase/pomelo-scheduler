@@ -104,7 +104,7 @@ var simpleJob = function(){
 }
 
 //Add a simple job and save the id 
-var id = schedule.scheduleJob({period: 1000}, cronJob, {);
+var id = schedule.scheduleJob({period: 1000}, simpleJob, {);
 
 /**
  * Do some thing else
