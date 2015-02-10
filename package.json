@@ -1,8 +1,8 @@
 {
 	"name": "pomelo-scheduler",
-	"version": "0.4.0",
+	"version": "0.4.1",
 	"main": "./lib/schedule",
-	"author": "XiaogangZhang <zhang0925@gmail.com>",
+	"author": "XiaogangZhang <zhang0925@gmail.com>, fantasyni <fantasyni@163.com>",
 	"dependencies": {
 		"log4js": "0.6.7"
 	}
