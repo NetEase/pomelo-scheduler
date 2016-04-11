@@ -86,7 +86,7 @@ Cron trigger has 7 fiels, the format is very like the cronTab in linux, only add
 "0 30 10 1 4 *"      Fire at 10:30 on 1st of March  
 "15 15 15 10 10 *"   Fire at Octorber 10th, at 15:15:15.
 
-###Special charactors
+###Special characters
 Pomelo-schedule allow three kinds of spechial characters, they are '-', '/' and '.'.
 
 -: '-' means range. For example, 1-3 in the second field means the seconds 1, 2 and 3
@@ -104,7 +104,7 @@ var simpleJob = function(){
 }
 
 //Add a simple job and save the id 
-var id = schedule.scheduleJob({period: 1000}, cronJob, {);
+var id = schedule.scheduleJob({period: 1000}, simpleJob, {});
 
 /**
  * Do some thing else
